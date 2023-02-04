@@ -1,0 +1,151 @@
+
+
+body {
+    background-image: url(../images/main_image_galaxies_stephans_quintet_sq_nircam_miri_final-1280.jpg);
+    backdrop-filter: blur(2.5px);
+    /* Old browsers 
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+    background: linear-gradient(-45deg, #35577D, #141E30);*/
+    margin: 10px 50px;
+    padding: 0;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #292F36;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:16px;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+    letter-spacing: -0.5px;
+    font-weight:200;
+}
+
+a:hover {
+    color: white;
+    transition: ease-in 0.1s;
+}
+a:active {
+    opacity: .3;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 2.5em;
+    padding: 30px 0px;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 0;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    width: 70%;
+    font-family: Georgia;
+}
+
+h3 {
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    width: 70%;
+    font-family: Georgia;
+}
+
+p {
+    text-align: left;
+    line-height: normal;
+}
+
+.first_letter {
+    font-size: 50px;
+}
+
+.byline {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.jwst-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: smaller;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 821px) {
+    header {
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        word-break: break-word;
+        left: auto;
+    }
+    body {
+        font-size: medium;
+    }
+    h1 {
+        margin: 0;
+    }
+    h1, h2 {
+        padding: 0;
+    }
+    h2, h3, .jwst-imgs {
+        width: 100%;
+    }
+    p, ul {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    figcaption {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 6px;
+    }
+        
+}
