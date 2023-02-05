@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(../images/main_image_galaxies_stephans_quintet_sq_nircam_miri_final-1280.jpg);
+    background-image: url("./images/main_image_galaxies_stephans_quintet_sq_nircam_miri_final-1280.jpg");
     backdrop-filter: blur(2.5px);
     /* Old browsers 
     background: #141E30;
